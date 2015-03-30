@@ -1,0 +1,6 @@
+framework module Cent {
+  umbrella header "Pods-Cent-umbrella.h"
+
+  export *
+  module * { export * }
+}
