@@ -2,21 +2,21 @@
 //  ViewController.swift
 //  DollarPodApp
 //
-//  Created by Ankur Patel on 3/29/15.
-//  Copyright (c) 2015 Encore Dev Labs LLC. All rights reserved.
+//  Created by Ankur Patel on 9/20/15.
+//  Copyright © 2015 Encore Dev Labs LLC. All rights reserved.
 //
 
 import UIKit
 import Dollar
+import Cent
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        println($.map([1, 2, 3]) {
-            $0 * 2
-        })
+        print($.map([1, 2, 3]) { $0 * 10 })
+        print("\([1, 2, 3].last()!) == 3")
     }
 
     override func didReceiveMemoryWarning() {

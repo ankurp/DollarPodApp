@@ -7,51 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17CDC7A19BC9193234BE7369 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E2C7B897C3CB7B42F68FD9 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		9229393C1AC8CB4B005FA5C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229393B1AC8CB4B005FA5C7 /* AppDelegate.swift */; };
-		9229393E1AC8CB4B005FA5C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9229393D1AC8CB4B005FA5C7 /* ViewController.swift */; };
-		922939411AC8CB4B005FA5C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9229393F1AC8CB4B005FA5C7 /* Main.storyboard */; };
-		922939431AC8CB4B005FA5C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922939421AC8CB4B005FA5C7 /* Images.xcassets */; };
-		922939461AC8CB4C005FA5C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 922939441AC8CB4C005FA5C7 /* LaunchScreen.xib */; };
-		922939521AC8CB4C005FA5C7 /* DollarPodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922939511AC8CB4C005FA5C7 /* DollarPodAppTests.swift */; };
+		5A0D21598A7EF2E65797FF82 /* Pods_DollarPodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E00EC6CC2EE8916D8096EB0 /* Pods_DollarPodApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9295C7671BAF7FF000A7AF64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C7661BAF7FF000A7AF64 /* AppDelegate.swift */; };
+		9295C7691BAF7FF000A7AF64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C7681BAF7FF000A7AF64 /* ViewController.swift */; };
+		9295C76C1BAF7FF000A7AF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295C76A1BAF7FF000A7AF64 /* Main.storyboard */; };
+		9295C76E1BAF7FF000A7AF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9295C76D1BAF7FF000A7AF64 /* Assets.xcassets */; };
+		9295C7711BAF7FF000A7AF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9295C76F1BAF7FF000A7AF64 /* LaunchScreen.storyboard */; };
+		9295C77C1BAF7FF000A7AF64 /* DollarPodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C77B1BAF7FF000A7AF64 /* DollarPodAppTests.swift */; };
+		9295C7871BAF7FF000A7AF64 /* DollarPodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295C7861BAF7FF000A7AF64 /* DollarPodAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9229394C1AC8CB4C005FA5C7 /* PBXContainerItemProxy */ = {
+		9295C7781BAF7FF000A7AF64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9229392E1AC8CB4B005FA5C7 /* Project object */;
+			containerPortal = 9295C75B1BAF7FF000A7AF64 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 922939351AC8CB4B005FA5C7;
+			remoteGlobalIDString = 9295C7621BAF7FF000A7AF64;
+			remoteInfo = DollarPodApp;
+		};
+		9295C7831BAF7FF000A7AF64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9295C75B1BAF7FF000A7AF64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9295C7621BAF7FF000A7AF64;
 			remoteInfo = DollarPodApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8DBEDC8B3E7972D83AC85948 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		922939361AC8CB4B005FA5C7 /* DollarPodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarPodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9229393A1AC8CB4B005FA5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9229393B1AC8CB4B005FA5C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9229393D1AC8CB4B005FA5C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		922939401AC8CB4B005FA5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		922939421AC8CB4B005FA5C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		922939451AC8CB4C005FA5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9229394B1AC8CB4C005FA5C7 /* DollarPodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarPodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		922939501AC8CB4C005FA5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		922939511AC8CB4C005FA5C7 /* DollarPodAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarPodAppTests.swift; sourceTree = "<group>"; };
-		CD6774E6401E8A4AC9CE3586 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		F4E2C7B897C3CB7B42F68FD9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B6ABAF926A0D5DAFC5FE13 /* Pods-DollarPodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollarPodApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DollarPodApp/Pods-DollarPodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5E00EC6CC2EE8916D8096EB0 /* Pods_DollarPodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DollarPodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295C7631BAF7FF000A7AF64 /* DollarPodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DollarPodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295C7661BAF7FF000A7AF64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9295C7681BAF7FF000A7AF64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9295C76B1BAF7FF000A7AF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9295C76D1BAF7FF000A7AF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9295C7701BAF7FF000A7AF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9295C7721BAF7FF000A7AF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9295C7771BAF7FF000A7AF64 /* DollarPodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarPodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295C77B1BAF7FF000A7AF64 /* DollarPodAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarPodAppTests.swift; sourceTree = "<group>"; };
+		9295C77D1BAF7FF000A7AF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9295C7821BAF7FF000A7AF64 /* DollarPodAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DollarPodAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9295C7861BAF7FF000A7AF64 /* DollarPodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DollarPodAppUITests.swift; sourceTree = "<group>"; };
+		9295C7881BAF7FF000A7AF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BF437B5EF69D8F7CA11A7B /* Pods-DollarPodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DollarPodApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DollarPodApp/Pods-DollarPodApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		922939331AC8CB4B005FA5C7 /* Frameworks */ = {
+		9295C7601BAF7FF000A7AF64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17CDC7A19BC9193234BE7369 /* Pods.framework in Frameworks */,
+				5A0D21598A7EF2E65797FF82 /* Pods_DollarPodApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		922939481AC8CB4C005FA5C7 /* Frameworks */ = {
+		9295C7741BAF7FF000A7AF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295C77F1BAF7FF000A7AF64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,94 +79,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E8669840CB78AF9C1B9BFC7 /* Pods */ = {
+		0E636041026BED5CA422ED5B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CD6774E6401E8A4AC9CE3586 /* Pods.debug.xcconfig */,
-				8DBEDC8B3E7972D83AC85948 /* Pods.release.xcconfig */,
+				33B6ABAF926A0D5DAFC5FE13 /* Pods-DollarPodApp.debug.xcconfig */,
+				F1BF437B5EF69D8F7CA11A7B /* Pods-DollarPodApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		48572968ED0F7D8E90578DC7 /* Frameworks */ = {
+		9295C75A1BAF7FF000A7AF64 = {
 			isa = PBXGroup;
 			children = (
-				F4E2C7B897C3CB7B42F68FD9 /* Pods.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9229392D1AC8CB4B005FA5C7 = {
-			isa = PBXGroup;
-			children = (
-				922939381AC8CB4B005FA5C7 /* DollarPodApp */,
-				9229394E1AC8CB4C005FA5C7 /* DollarPodAppTests */,
-				922939371AC8CB4B005FA5C7 /* Products */,
-				1E8669840CB78AF9C1B9BFC7 /* Pods */,
-				48572968ED0F7D8E90578DC7 /* Frameworks */,
+				9295C7651BAF7FF000A7AF64 /* DollarPodApp */,
+				9295C77A1BAF7FF000A7AF64 /* DollarPodAppTests */,
+				9295C7851BAF7FF000A7AF64 /* DollarPodAppUITests */,
+				9295C7641BAF7FF000A7AF64 /* Products */,
+				0E636041026BED5CA422ED5B /* Pods */,
+				F51F2802ED1C1BDB1F7FD6C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		922939371AC8CB4B005FA5C7 /* Products */ = {
+		9295C7641BAF7FF000A7AF64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				922939361AC8CB4B005FA5C7 /* DollarPodApp.app */,
-				9229394B1AC8CB4C005FA5C7 /* DollarPodAppTests.xctest */,
+				9295C7631BAF7FF000A7AF64 /* DollarPodApp.app */,
+				9295C7771BAF7FF000A7AF64 /* DollarPodAppTests.xctest */,
+				9295C7821BAF7FF000A7AF64 /* DollarPodAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		922939381AC8CB4B005FA5C7 /* DollarPodApp */ = {
+		9295C7651BAF7FF000A7AF64 /* DollarPodApp */ = {
 			isa = PBXGroup;
 			children = (
-				9229393B1AC8CB4B005FA5C7 /* AppDelegate.swift */,
-				9229393D1AC8CB4B005FA5C7 /* ViewController.swift */,
-				9229393F1AC8CB4B005FA5C7 /* Main.storyboard */,
-				922939421AC8CB4B005FA5C7 /* Images.xcassets */,
-				922939441AC8CB4C005FA5C7 /* LaunchScreen.xib */,
-				922939391AC8CB4B005FA5C7 /* Supporting Files */,
+				9295C7661BAF7FF000A7AF64 /* AppDelegate.swift */,
+				9295C7681BAF7FF000A7AF64 /* ViewController.swift */,
+				9295C76A1BAF7FF000A7AF64 /* Main.storyboard */,
+				9295C76D1BAF7FF000A7AF64 /* Assets.xcassets */,
+				9295C76F1BAF7FF000A7AF64 /* LaunchScreen.storyboard */,
+				9295C7721BAF7FF000A7AF64 /* Info.plist */,
 			);
 			path = DollarPodApp;
 			sourceTree = "<group>";
 		};
-		922939391AC8CB4B005FA5C7 /* Supporting Files */ = {
+		9295C77A1BAF7FF000A7AF64 /* DollarPodAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				9229393A1AC8CB4B005FA5C7 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9229394E1AC8CB4C005FA5C7 /* DollarPodAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				922939511AC8CB4C005FA5C7 /* DollarPodAppTests.swift */,
-				9229394F1AC8CB4C005FA5C7 /* Supporting Files */,
+				9295C77B1BAF7FF000A7AF64 /* DollarPodAppTests.swift */,
+				9295C77D1BAF7FF000A7AF64 /* Info.plist */,
 			);
 			path = DollarPodAppTests;
 			sourceTree = "<group>";
 		};
-		9229394F1AC8CB4C005FA5C7 /* Supporting Files */ = {
+		9295C7851BAF7FF000A7AF64 /* DollarPodAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				922939501AC8CB4C005FA5C7 /* Info.plist */,
+				9295C7861BAF7FF000A7AF64 /* DollarPodAppUITests.swift */,
+				9295C7881BAF7FF000A7AF64 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = DollarPodAppUITests;
+			sourceTree = "<group>";
+		};
+		F51F2802ED1C1BDB1F7FD6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E00EC6CC2EE8916D8096EB0 /* Pods_DollarPodApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		922939351AC8CB4B005FA5C7 /* DollarPodApp */ = {
+		9295C7621BAF7FF000A7AF64 /* DollarPodApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 922939551AC8CB4C005FA5C7 /* Build configuration list for PBXNativeTarget "DollarPodApp" */;
+			buildConfigurationList = 9295C78B1BAF7FF000A7AF64 /* Build configuration list for PBXNativeTarget "DollarPodApp" */;
 			buildPhases = (
-				122F1E4B10EF3E5123786289 /* Check Pods Manifest.lock */,
-				922939321AC8CB4B005FA5C7 /* Sources */,
-				922939331AC8CB4B005FA5C7 /* Frameworks */,
-				922939341AC8CB4B005FA5C7 /* Resources */,
-				5233072BE728E62717320E9F /* Embed Pods Frameworks */,
-				91FFB76EDB6358C88E03B5F2 /* Copy Pods Resources */,
+				C15DFEAA2782DB1387639385 /* Check Pods Manifest.lock */,
+				9295C75F1BAF7FF000A7AF64 /* Sources */,
+				9295C7601BAF7FF000A7AF64 /* Frameworks */,
+				9295C7611BAF7FF000A7AF64 /* Resources */,
+				81DBF7A87A832B6E969C297F /* Embed Pods Frameworks */,
+				0CB4E73424B3E1E58DAEFB84 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,46 +169,68 @@
 			);
 			name = DollarPodApp;
 			productName = DollarPodApp;
-			productReference = 922939361AC8CB4B005FA5C7 /* DollarPodApp.app */;
+			productReference = 9295C7631BAF7FF000A7AF64 /* DollarPodApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9229394A1AC8CB4C005FA5C7 /* DollarPodAppTests */ = {
+		9295C7761BAF7FF000A7AF64 /* DollarPodAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 922939581AC8CB4C005FA5C7 /* Build configuration list for PBXNativeTarget "DollarPodAppTests" */;
+			buildConfigurationList = 9295C78E1BAF7FF000A7AF64 /* Build configuration list for PBXNativeTarget "DollarPodAppTests" */;
 			buildPhases = (
-				922939471AC8CB4C005FA5C7 /* Sources */,
-				922939481AC8CB4C005FA5C7 /* Frameworks */,
-				922939491AC8CB4C005FA5C7 /* Resources */,
+				9295C7731BAF7FF000A7AF64 /* Sources */,
+				9295C7741BAF7FF000A7AF64 /* Frameworks */,
+				9295C7751BAF7FF000A7AF64 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9229394D1AC8CB4C005FA5C7 /* PBXTargetDependency */,
+				9295C7791BAF7FF000A7AF64 /* PBXTargetDependency */,
 			);
 			name = DollarPodAppTests;
 			productName = DollarPodAppTests;
-			productReference = 9229394B1AC8CB4C005FA5C7 /* DollarPodAppTests.xctest */;
+			productReference = 9295C7771BAF7FF000A7AF64 /* DollarPodAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9295C7811BAF7FF000A7AF64 /* DollarPodAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9295C7911BAF7FF000A7AF64 /* Build configuration list for PBXNativeTarget "DollarPodAppUITests" */;
+			buildPhases = (
+				9295C77E1BAF7FF000A7AF64 /* Sources */,
+				9295C77F1BAF7FF000A7AF64 /* Frameworks */,
+				9295C7801BAF7FF000A7AF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9295C7841BAF7FF000A7AF64 /* PBXTargetDependency */,
+			);
+			name = DollarPodAppUITests;
+			productName = DollarPodAppUITests;
+			productReference = 9295C7821BAF7FF000A7AF64 /* DollarPodAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9229392E1AC8CB4B005FA5C7 /* Project object */ = {
+		9295C75B1BAF7FF000A7AF64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Encore Dev Labs LLC";
 				TargetAttributes = {
-					922939351AC8CB4B005FA5C7 = {
-						CreatedOnToolsVersion = 6.2;
+					9295C7621BAF7FF000A7AF64 = {
+						CreatedOnToolsVersion = 7.0;
 					};
-					9229394A1AC8CB4C005FA5C7 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 922939351AC8CB4B005FA5C7;
+					9295C7761BAF7FF000A7AF64 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9295C7621BAF7FF000A7AF64;
+					};
+					9295C7811BAF7FF000A7AF64 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 9295C7621BAF7FF000A7AF64;
 					};
 				};
 			};
-			buildConfigurationList = 922939311AC8CB4B005FA5C7 /* Build configuration list for PBXProject "DollarPodApp" */;
+			buildConfigurationList = 9295C75E1BAF7FF000A7AF64 /* Build configuration list for PBXProject "DollarPodApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -203,29 +238,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 9229392D1AC8CB4B005FA5C7;
-			productRefGroup = 922939371AC8CB4B005FA5C7 /* Products */;
+			mainGroup = 9295C75A1BAF7FF000A7AF64;
+			productRefGroup = 9295C7641BAF7FF000A7AF64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				922939351AC8CB4B005FA5C7 /* DollarPodApp */,
-				9229394A1AC8CB4C005FA5C7 /* DollarPodAppTests */,
+				9295C7621BAF7FF000A7AF64 /* DollarPodApp */,
+				9295C7761BAF7FF000A7AF64 /* DollarPodAppTests */,
+				9295C7811BAF7FF000A7AF64 /* DollarPodAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		922939341AC8CB4B005FA5C7 /* Resources */ = {
+		9295C7611BAF7FF000A7AF64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				922939411AC8CB4B005FA5C7 /* Main.storyboard in Resources */,
-				922939461AC8CB4C005FA5C7 /* LaunchScreen.xib in Resources */,
-				922939431AC8CB4B005FA5C7 /* Images.xcassets in Resources */,
+				9295C7711BAF7FF000A7AF64 /* LaunchScreen.storyboard in Resources */,
+				9295C76E1BAF7FF000A7AF64 /* Assets.xcassets in Resources */,
+				9295C76C1BAF7FF000A7AF64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		922939491AC8CB4C005FA5C7 /* Resources */ = {
+		9295C7751BAF7FF000A7AF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295C7801BAF7FF000A7AF64 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -235,7 +278,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		122F1E4B10EF3E5123786289 /* Check Pods Manifest.lock */ = {
+		0CB4E73424B3E1E58DAEFB84 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DollarPodApp/Pods-DollarPodApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81DBF7A87A832B6E969C297F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DollarPodApp/Pods-DollarPodApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15DFEAA2782DB1387639385 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,87 +323,70 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5233072BE728E62717320E9F /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		91FFB76EDB6358C88E03B5F2 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		922939321AC8CB4B005FA5C7 /* Sources */ = {
+		9295C75F1BAF7FF000A7AF64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9229393E1AC8CB4B005FA5C7 /* ViewController.swift in Sources */,
-				9229393C1AC8CB4B005FA5C7 /* AppDelegate.swift in Sources */,
+				9295C7691BAF7FF000A7AF64 /* ViewController.swift in Sources */,
+				9295C7671BAF7FF000A7AF64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		922939471AC8CB4C005FA5C7 /* Sources */ = {
+		9295C7731BAF7FF000A7AF64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				922939521AC8CB4C005FA5C7 /* DollarPodAppTests.swift in Sources */,
+				9295C77C1BAF7FF000A7AF64 /* DollarPodAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9295C77E1BAF7FF000A7AF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9295C7871BAF7FF000A7AF64 /* DollarPodAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9229394D1AC8CB4C005FA5C7 /* PBXTargetDependency */ = {
+		9295C7791BAF7FF000A7AF64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 922939351AC8CB4B005FA5C7 /* DollarPodApp */;
-			targetProxy = 9229394C1AC8CB4C005FA5C7 /* PBXContainerItemProxy */;
+			target = 9295C7621BAF7FF000A7AF64 /* DollarPodApp */;
+			targetProxy = 9295C7781BAF7FF000A7AF64 /* PBXContainerItemProxy */;
+		};
+		9295C7841BAF7FF000A7AF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9295C7621BAF7FF000A7AF64 /* DollarPodApp */;
+			targetProxy = 9295C7831BAF7FF000A7AF64 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9229393F1AC8CB4B005FA5C7 /* Main.storyboard */ = {
+		9295C76A1BAF7FF000A7AF64 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				922939401AC8CB4B005FA5C7 /* Base */,
+				9295C76B1BAF7FF000A7AF64 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		922939441AC8CB4C005FA5C7 /* LaunchScreen.xib */ = {
+		9295C76F1BAF7FF000A7AF64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				922939451AC8CB4C005FA5C7 /* Base */,
+				9295C7701BAF7FF000A7AF64 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		922939531AC8CB4C005FA5C7 /* Debug */ = {
+		9295C7891BAF7FF000A7AF64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,22 +405,24 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -372,7 +430,7 @@
 			};
 			name = Debug;
 		};
-		922939541AC8CB4C005FA5C7 /* Release */ = {
+		9295C78A1BAF7FF000A7AF64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -391,109 +449,136 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		922939561AC8CB4C005FA5C7 /* Debug */ = {
+		9295C78C1BAF7FF000A7AF64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD6774E6401E8A4AC9CE3586 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 33B6ABAF926A0D5DAFC5FE13 /* Pods-DollarPodApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DollarPodApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.encoredevlabs.DollarPodApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		922939571AC8CB4C005FA5C7 /* Release */ = {
+		9295C78D1BAF7FF000A7AF64 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DBEDC8B3E7972D83AC85948 /* Pods.release.xcconfig */;
+			baseConfigurationReference = F1BF437B5EF69D8F7CA11A7B /* Pods-DollarPodApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DollarPodApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.encoredevlabs.DollarPodApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		922939591AC8CB4C005FA5C7 /* Debug */ = {
+		9295C78F1BAF7FF000A7AF64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = DollarPodAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.encoredevlabs.DollarPodAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DollarPodApp.app/DollarPodApp";
 			};
 			name = Debug;
 		};
-		9229395A1AC8CB4C005FA5C7 /* Release */ = {
+		9295C7901BAF7FF000A7AF64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = DollarPodAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.encoredevlabs.DollarPodAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DollarPodApp.app/DollarPodApp";
+			};
+			name = Release;
+		};
+		9295C7921BAF7FF000A7AF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DollarPodAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.encoredevlabs.DollarPodAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DollarPodApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9295C7931BAF7FF000A7AF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DollarPodAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.encoredevlabs.DollarPodAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DollarPodApp;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		922939311AC8CB4B005FA5C7 /* Build configuration list for PBXProject "DollarPodApp" */ = {
+		9295C75E1BAF7FF000A7AF64 /* Build configuration list for PBXProject "DollarPodApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				922939531AC8CB4C005FA5C7 /* Debug */,
-				922939541AC8CB4C005FA5C7 /* Release */,
+				9295C7891BAF7FF000A7AF64 /* Debug */,
+				9295C78A1BAF7FF000A7AF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		922939551AC8CB4C005FA5C7 /* Build configuration list for PBXNativeTarget "DollarPodApp" */ = {
+		9295C78B1BAF7FF000A7AF64 /* Build configuration list for PBXNativeTarget "DollarPodApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				922939561AC8CB4C005FA5C7 /* Debug */,
-				922939571AC8CB4C005FA5C7 /* Release */,
+				9295C78C1BAF7FF000A7AF64 /* Debug */,
+				9295C78D1BAF7FF000A7AF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		922939581AC8CB4C005FA5C7 /* Build configuration list for PBXNativeTarget "DollarPodAppTests" */ = {
+		9295C78E1BAF7FF000A7AF64 /* Build configuration list for PBXNativeTarget "DollarPodAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				922939591AC8CB4C005FA5C7 /* Debug */,
-				9229395A1AC8CB4C005FA5C7 /* Release */,
+				9295C78F1BAF7FF000A7AF64 /* Debug */,
+				9295C7901BAF7FF000A7AF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9295C7911BAF7FF000A7AF64 /* Build configuration list for PBXNativeTarget "DollarPodAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9295C7921BAF7FF000A7AF64 /* Debug */,
+				9295C7931BAF7FF000A7AF64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9229392E1AC8CB4B005FA5C7 /* Project object */;
+	rootObject = 9295C75B1BAF7FF000A7AF64 /* Project object */;
 }

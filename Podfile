@@ -1,6 +1,7 @@
-platform :ios, '8.0'
+target 'DollarPodApp' do
+  pod 'Dollar', '~> 4.0.1'
+  pod 'Cent', '~> 4.0.1'
 
-pod 'Dollar'
-pod 'Cent'
+  use_frameworks!
+end
 
-use_frameworks!
