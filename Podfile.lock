@@ -1,14 +1,14 @@
 PODS:
-  - Cent (4.0.1):
-    - Dollar (~> 4.0.1)
-  - Dollar (4.0.1)
+  - Cent (4.1.0):
+    - Dollar (~> 4.1.0)
+  - Dollar (4.1.0)
 
 DEPENDENCIES:
-  - Cent (~> 4.0.1)
-  - Dollar (~> 4.0.1)
+  - Cent (~> 4.1.0)
+  - Dollar (~> 4.1.0)
 
 SPEC CHECKSUMS:
-  Cent: 74e3f5a7e8543317b0724c272d279e8219cbaedb
-  Dollar: a058e2659e0d3261307c12630dbc2fd8e32f80bf
+  Cent: 9960f0a1963631c6164cdb43bd3344d04b793fe3
+  Dollar: 1ee47922ccdfda5b572c8a4956b08986f1b4c429
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

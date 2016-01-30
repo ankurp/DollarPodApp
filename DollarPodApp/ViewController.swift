@@ -16,7 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         print($.map([1, 2, 3]) { $0 * 10 })
-        print("\([1, 2, 3].last()!) == 3")
+        if let last = [1, 2, 3].last() {
+            print("\(last) == 3")
+        }
     }
 
     override func didReceiveMemoryWarning() {
